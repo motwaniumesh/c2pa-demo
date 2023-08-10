@@ -16,19 +16,26 @@ From the rust_read_write directory, run the quoted code in your terminal replaci
 ## Write Manifest
 
 1. "cargo --bin writer -- [flags]"
+   
 "-p '[comma-separated-paths-parent-file-last]'" REQUIRED
 "-o [path-to-directory-to-write-output-file]"
 "-n [name-of-output-file]"
 
+
 Example: 
+
 cargo run --bin writer -- -p 'src/data/outfile.png, src/data/outfile2.png' -n output_test.png
 
 ## Read Manifest
 
-"cargo --bin reader -- [flags]"
+2. "cargo --bin reader -- [flags]"
+
 "-p [path-to-file]" REQUIRED
 "-c" flag to copy the manifest to your clipboard
 "-n" flag to prevent outputting the manifest to the terminal
 "-o [output-name]" to write the manifest to a file name/path "output-name"
+
+
 Example: 
+
 cargo run --bin reader -- -p output_test.png -cn
