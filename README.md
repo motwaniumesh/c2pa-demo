@@ -17,13 +17,13 @@ From the rust_read_write directory, run the quoted code in your terminal replaci
 
 1. "cargo --bin writer -- [flags]"
    
-   "-p '[comma-separated-paths-parent-file-last]'" REQUIRED
-   
-   
-   "-o [path-to-directory-to-write-output-file]"
-   
-   
-   "-n [name-of-output-file]"
+      "-p '[comma-separated-paths-parent-file-last]'" REQUIRED
+      
+      
+      "-o [path-to-directory-to-write-output-file]"
+      
+      
+      "-n [name-of-output-file]"
 
 
 
