@@ -3,6 +3,8 @@
 Key Functions:
 Writer::write is a utility function that takes a file as input and outputs a copy of the file with an embedded C2PA manifest.
 
+
+
 The function can also take in a list of files and output the final file in the list with a manifest composed of all of the prior files. In this case, all the prior files are considered 'ingredients' of the final manifest.
 
 Reader::read is a utility function that reads and prints information from an asset signed with a C2PA manifest file and, optionally, copies the manifest to the system clipboard or writes the manifest to a designated text file.
