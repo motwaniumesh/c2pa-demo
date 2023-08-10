@@ -29,7 +29,7 @@ From the rust_read_write directory, run the quoted code in your terminal replaci
 
 Example: 
 
-cargo run --bin writer -- -p 'src/data/outfile.png, src/data/outfile2.png' -n output_test.png
+`cargo run --bin writer -- -p 'src/data/outfile.png, src/data/outfile2.png' -n output_test.png`
 
 ## Read Manifest
 
@@ -50,4 +50,4 @@ cargo run --bin writer -- -p 'src/data/outfile.png, src/data/outfile2.png' -n ou
 Example: 
 
 
-cargo run --bin reader -- -p output_test.png -cn
+`cargo run --bin reader -- -p output_test.png -cn`
