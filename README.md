@@ -13,7 +13,7 @@ Reader::read is a utility function that reads and prints information from an ass
 # Steps to Run:
 From the rust_read_write directory, run the quoted code in your terminal replacing the square braces and the text within with the relevant values.
 
-# Write Manifest
+## Write Manifest
 
 1. "cargo --bin writer -- [flags]"
 "-p '[comma-separated-paths-parent-file-last]'" REQUIRED
@@ -23,7 +23,7 @@ From the rust_read_write directory, run the quoted code in your terminal replaci
 Example: 
 cargo run --bin writer -- -p 'src/data/outfile.png, src/data/outfile2.png' -n output_test.png
 
-# Read Manifest
+## Read Manifest
 
 "cargo --bin reader -- [flags]"
 "-p [path-to-file]" REQUIRED
