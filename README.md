@@ -35,7 +35,7 @@ cargo run --bin writer -- -p 'src/data/outfile.png, src/data/outfile2.png' -n ou
 
 2. "cargo --bin reader -- [flags]"
 
-"-p [path-to-file]" REQUIRED
+      "-p [path-to-file]" REQUIRED
 
 
       "-c" flag to copy the manifest to your clipboard
